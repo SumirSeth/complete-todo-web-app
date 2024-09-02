@@ -2,7 +2,7 @@
 
 const { greeting } = useGreeting()
 const user = useSupabaseUser()
-const name = user.value.email
+const name = user.value.email.split('@')[0]
 
 
 </script>

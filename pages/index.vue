@@ -12,6 +12,7 @@
             class="w-full sm:w-auto justify-center mr-2 sm:mr-4 md:mr-6"
             to="/app"
             variant="soft"
+            icon="i-heroicons-list-bullet"
           >
             Go to App
           </UButton>
@@ -22,6 +23,7 @@
             class="w-full sm:w-auto justify-center mt-2 sm:mt-0"
             to="/auth/login"
             variant="soft"
+            icon="i-heroicons-arrow-right-end-on-rectangle-16-solid"
           >
             Login
           </UButton>
@@ -32,6 +34,7 @@
             class="w-full sm:w-auto justify-center sm:ml-4 md:ml-6 mt-2 sm:mt-0"
             to="/profile"
             variant="soft"
+            icon="i-heroicons-user-circle"
           >
             Profile
           </UButton>
