@@ -12,7 +12,7 @@
           
         </div>
         <UInput v-model="description" label="Description" placeholder="Enter a description" />
-        <UButton class="justify-center" @click="addTask" icon="i-heroicons-plus-20-solid">Add Task</UButton>
+        <UButton class="justify-center" @click="task.length!==0 ? addTask() : useToast().add({title: 'Task is empty', description: 'Please enter a task', icon: 'i-heroicons-exclamation-circle-20-solid'})" icon="i-heroicons-plus-20-solid">Add Task</UButton>
       </div>
       <div :class="['p-4 ','','border-primary','rounded-lg', 'todo-div']" id="todo-div">
         <!-- Todo list will go here -->
